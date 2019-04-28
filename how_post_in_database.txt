@@ -1,0 +1,10 @@
+server side
+
+in app.js
+app.use('/api',route);
+in route.js
+/contacts i.e contacts.js in models file(database)
+
+to post it 
+we need to include
+route.post('http://localhost/api/contacts') in contact.service.ts in fronend
